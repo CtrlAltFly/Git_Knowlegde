@@ -1,0 +1,28 @@
+install brew - /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+------------------------------------------
+➜  ~ brew install git
+==> Searching for similarly named formulae...
+Error: No similarly named formulae found.
+Error: No available formula or cask with the name "git".
+==> Searching for a previously deleted formula (in the last month)...
+Error: No previously deleted formula found.
+==> Searching taps on GitHub...
+Error: No formulae found in taps.
+
+
+➜  ~brew config
+➜  ~ brew readall
+➜  ~ rm -rf /usr/local/Homebrew/Library/Taps/homebrew/homebrew-core
+➜  ~ brew tap homebrew/core
+
+➜  ~ brew doctor
+Your system is ready to brew.
+volla!!
+
+now install gui (very helpful)
+brew install git-gui
+
+
+Cheers!!
+Shekar
