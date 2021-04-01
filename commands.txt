@@ -1,0 +1,30 @@
+Pull from base repo whil working on a fork repo
+=================================================
+git pull **original repo url** master
+
+git remote add upstream **git path of original repo**
+
+git fetch upstream
+
+git merge upstream/master
+
+git remote rm upstream
+
+
+Pull pr's
+==========
+
+point master to new branch -- ill advised
+git pull upstream pull/<pull_request_number>/head
+
+create a new branch and point to that -- advised
+git fetch upstream pull/<pull_request_number>/head:newbranch
+Eg: git fetch upstream pull/4558/head:4558
+
+Reset Heads for commits without file changes
+===============================================
+git checkout master
+git fetch upstream
+git reset --hard upstream/master
+git push --force
+
