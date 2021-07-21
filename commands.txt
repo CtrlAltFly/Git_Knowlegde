@@ -28,3 +28,15 @@ git fetch upstream
 git reset --hard upstream/master
 git push --force
 
+
+
+Follow these steps to project to Github
+========================================================
+
+1) git init
+2) git add .
+3) git commit -m "Add all my files"
+4) git remote add origin https://github.com/yourusername/your-repo-name.git
+    Upload of project from scratch require git pull origin master.
+5) git pull origin master
+6) git push origin master
