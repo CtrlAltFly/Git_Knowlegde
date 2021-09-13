@@ -30,8 +30,8 @@ git push --force
 
 
 
-Follow these steps to project to Github
-========================================================
+Follow these steps to enable git in local project for pushing on to Github
+==========================================================================
 
 1) git init
 2) git add .
@@ -40,3 +40,9 @@ Follow these steps to project to Github
     Upload of project from scratch require git pull origin master.
 5) git pull origin master
 6) git push origin master
+
+
+Pull particular files from commits into a remote branch
+===========================================================
+create a local branch first
+git checkout --patch pr_<PR NUMBER> src/blah/blah.filename 
