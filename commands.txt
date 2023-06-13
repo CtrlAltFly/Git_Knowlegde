@@ -27,6 +27,12 @@ create a new branch and point to that -- advised
 git fetch upstream pull/<pull_request_number>/head:newbranch
 Eg: git fetch upstream pull/4558/head:4558
 
+
+another way
+================================
+git pull origin pull/1984/head         
+ 
+ 
 Reset Heads for commits without file changes
 ===============================================
 git checkout master
