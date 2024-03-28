@@ -59,6 +59,9 @@ Pull particular files from commits into a remote branch
 create a local branch first
 git checkout --patch pr_<PR NUMBER> src/blah/blah.filename 
 
+Good practice
+===============================
+git config pull.rebase true
 
 
 Easy rebasing
