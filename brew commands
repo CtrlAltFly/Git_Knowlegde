@@ -1,0 +1,1 @@
+HOMEBREW_NO_AUTO_UPDATE=1 brew install python@3.9 - will not auto update other libs but only install python 3.9
